@@ -11,7 +11,7 @@
     An easy way to setup and use CheatBreaker cosmetics.
     <br />
     <br />
-    <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
     <br />
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/issues">Report Bug</a>
