@@ -46,6 +46,7 @@ node .
      IPs with your NodeJS's servers Domain/IP
 
      `Example: http://127.0.0.1/player/ -> http://{ip or domain}/player/`
+     
      `Example: http://127.0.0.1/servers/ -> http://{ip or domain}/servers/`
 
 <!-- USAGE EXAMPLES -->
