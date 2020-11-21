@@ -43,7 +43,8 @@ node .
 4. Edit the existing links in the CheatBreaker jar with your api's.
 
 Search 127.0.0.1 with [JByteMod Reborn](https://github.com/TerriblePanda/JByteMod-Reborn/releases/download/v1.9/JByteMod-Reborn.jar) and replace all IPs with your NodeJS's servers IP
-Example: http://127.0.0.1/player/ -> http://{ip}/player/
+
+`Example: http://127.0.0.1/player/ -> http://{ip}/player/`
 
 <!-- USAGE EXAMPLES -->
 ## Usage
