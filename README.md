@@ -62,7 +62,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ItsVops/CB-C
 ## Contact
 
 website - [vops.cc](https://vops.cc)
+
 twitter - [@vopswtf](https://twitter.com/vopswtf)
+
 discord - [vops#0001](#)
 
 Project Link: [https://github.com/ItsVops/CB-Cosmetics-API](https://github.com/ItsVops/CB-Cosmetics-API)
