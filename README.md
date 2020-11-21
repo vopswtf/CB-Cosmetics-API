@@ -56,7 +56,7 @@ _For more examples, please refer to the [Wiki](https://github.com/ItsVops/CB-Cos
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/ItsVops/CB-Cosmetics-API/blob/master/LICENSE.txt) for more information.
 
 <!-- CONTACT -->
 ## Contact
