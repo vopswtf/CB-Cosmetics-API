@@ -40,11 +40,13 @@ npm install
 node .
 ```
 
-4. Edit the existing links in the CheatBreaker jar with your api's.
+4. Edit the existing links in the [CheatBreaker Jar](http://www.mediafire.com/file/qjwvtzxq8o36fnc/CheatBreaker.zip/file) with your API's.
 
-Search 127.0.0.1 with [JByteMod Reborn](https://github.com/TerriblePanda/JByteMod-Reborn/releases/download/v1.9/JByteMod-Reborn.jar) and replace all IPs with your NodeJS's servers IP
+     Search 127.0.0.1 with [JByteMod Reborn](https://github.com/TerriblePanda/JByteMod-Reborn/releases/download/v1.9/JByteMod-Reborn.jar) and replace all 
+     IPs with your NodeJS's servers Domain/IP
 
-`Example: http://127.0.0.1/player/ -> http://{ip}/player/`
+     `Example: http://127.0.0.1/player/ -> http://{ip or domain}/player/`
+     `Example: http://127.0.0.1/servers/ -> http://{ip or domain}/servers/`
 
 <!-- USAGE EXAMPLES -->
 ## Usage
