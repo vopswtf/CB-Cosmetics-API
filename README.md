@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ItsVops/CB-Cosmetics-API">
-    <img src="https://pbs.twimg.com/profile_images/972258553577725952/Kri-CZdW_400x400.jpg" alt="Logo" width="80" height="80">
+    <img src="https://pbs.twimg.com/profile_images/972258553577725952/Kri-CZdW_400x400.jpg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">CheatBreaker Cosmetics API</h3>
