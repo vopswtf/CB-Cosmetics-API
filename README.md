@@ -67,4 +67,4 @@ twitter - [@vopswtf](https://twitter.com/vopswtf)
 
 discord - [vops#0001](#)
 
-Project Link: [https://github.com/ItsVops/CB-Cosmetics-API](https://github.com/ItsVops/CB-Cosmetics-API)
+repo: [CB-Cosmetics-API](https://github.com/ItsVops/CB-Cosmetics-API)
