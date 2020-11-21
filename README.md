@@ -10,6 +10,7 @@
   <p align="center">
     An easy way to setup and use CheatBreaker cosmetics.
     <br />
+    .
     <a href="https://github.com/ItsVops/CB-Cosmetics-API"><strong>Explore the docs »</strong></a>
     <br />
     <br />
