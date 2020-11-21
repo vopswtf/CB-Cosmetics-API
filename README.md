@@ -54,10 +54,10 @@ node .
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To add and remove cosmetics from players, you can access the panel by going to http://{ip}/{secret admin code}/panel
+To add and remove cosmetics from players, you can access the panel by going to http://{ip or domain}/{secret}/panel
 <p align="center">
   <a href="#">
-    <img src="https://i.gyazo.com/8513f131413d3859fa79e6deff1b59d1.png" alt="Panel">
+    <img src="https://i.gyazo.com/8513f131413d3859fa79e6deff1b59d1.png" alt="Panel" height="300">
   </a>
 
 _For more examples, please refer to the [Wiki](https://github.com/ItsVops/CB-Cosmetics-API/wiki)_
