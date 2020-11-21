@@ -30,7 +30,7 @@ git clone https://github.com/ItsVops/CB-Cosmetics-API.git
 ```sh
 npm install
 ```
-3. Enter your secret admin password in `config.json`
+3. Change your secret admin password in `config.json`
 ```JS
 "secret": "ENTER_SECRET_HERE"
 ```
