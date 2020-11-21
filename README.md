@@ -9,6 +9,7 @@
 
   <p align="center">
     An easy way to setup and use CheatBreaker cosmetics.
+    Expected Release Date: 11/21
     <br />
     <br />
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
