@@ -1,0 +1,11 @@
+{
+ "name": "cb-cosmetics-api",
+ "version": "1.0.0",
+ "main": "index.js",
+ "author": "ItsVops",
+ "dependencies": {
+  "express": "^4.17.1",
+  "fs": "0.0.1-security",
+  "request": "^2.88.2"
+ }
+}

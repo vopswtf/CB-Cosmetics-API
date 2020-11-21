@@ -1,0 +1,78 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+<title>CheatBreaker Cosmetics API</title>
+<div class="container py-5">
+  <div class="row mb-4">
+    <div class="col-lg-8 mx-auto text-center">
+      <h1 class="display-4">CheatBreaker Cosmetics API</h1>
+      <p class="lead mb-0">Easily add cosmetics to any minecraft user.</p>
+      <p class="lead">Created by <a href="https://github.com/ItsVops">ItsVops</a> on GitHub</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-7 mx-auto">
+      <div class="bg-white rounded-lg shadow-sm p-5">
+        <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
+          <li class="nav-item">
+            <a data-toggle="pill" href="#nav-tab-capes" class="nav-link active rounded-pill">
+                                Capes
+                            </a>
+          </li>
+          <li class="nav-item">
+            <a data-toggle="pill" href="#nav-tab-wings" class="nav-link rounded-pill">
+                                Wings
+                            </a>
+          </li>
+        </ul>
+        <!-- Capes -->
+        <div class="tab-content">
+          <div id="nav-tab-capes" class="tab-pane fade show active">
+            <form role="form" id="addCapeForm">
+              <div class="form-group">
+                <label for="username">Minecraft Username</label>
+                <input type="text" name="username" placeholder="ItsVops" required class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="cape">Cape</label>
+                <div class="input-group">
+                  <input type="text" name="cape" placeholder="420" class="form-control" required>
+                </div>
+              </div>
+              <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm" onclick="addCape()"> Give  </button>
+              <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm" onclick="delCape()"> Remove  </button>
+            </div>
+            </form>
+          <!-- End -->
+
+          <!-- Wings -->
+          <div id="nav-tab-wings" class="tab-pane fade">
+            <form role="form" id="addWingsForm">
+              <div class="form-group">
+                <label for="username">Minecraft Username</label>
+                <input type="text" name="username" placeholder="ItsVops" required class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="cape">Wings</label>
+                <div class="input-group">
+                  <input type="text" name="wings" placeholder="halloweenbonewings" class="form-control" required>
+                </div>
+              </div>
+              <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm" onclick="addWings()"> Give  </button>
+              <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm" onclick="delWings()"> Remove  </button>
+            </form>
+          <!-- End -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+</html>

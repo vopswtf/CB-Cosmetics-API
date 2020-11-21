@@ -1,0 +1,10 @@
+{
+    "servers":{
+      "Mantle":{
+        "address":"mantle.club"
+},	
+      "Lunar Network":{	
+        "address":"lunar.gg"
+        }
+    }
+}
