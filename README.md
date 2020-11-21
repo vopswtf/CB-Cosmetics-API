@@ -9,6 +9,7 @@
 
   <p align="center">
     An easy way to setup and use CheatBreaker cosmetics.
+    <br />
     Expected Release Date: 11/21
     <br />
     <br />
