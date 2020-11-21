@@ -10,6 +10,8 @@
   <p align="center">
     An easy way to setup and use CheatBreaker cosmetics.
     <br />
+    Unobfuscated code will be released in December.
+    <br />
     <br />
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
