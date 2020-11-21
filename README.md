@@ -13,8 +13,6 @@
     <a href="https://github.com/ItsVops/CB-Cosmetics-API"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ItsVops/CB-Cosmetics-API">View Demo</a>
-    ·
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/issues">Report Bug</a>
     ·
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/issues">Request Feature</a>
