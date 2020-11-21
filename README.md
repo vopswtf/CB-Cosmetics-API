@@ -43,11 +43,12 @@ node .
 4. Edit the existing links in the CheatBreaker jar with your api's.
 
 Search 127.0.0.1 with [JByteMod Reborn](https://github.com/TerriblePanda/JByteMod-Reborn/releases/download/v1.9/JByteMod-Reborn.jar) and replace all IPs with your NodeJS's servers IP
+Example: http://127.0.0.1/player/ -> http://<ip>/player/
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To add and remove cosmetics from players, you can access the panel by going to http://(ip)/(secret admin code)/panel
+To add and remove cosmetics from players, you can access the panel by going to http://<ip>/<secret admin code>/panel
 
 _For more examples, please refer to the [Wiki](https://github.com/ItsVops/CB-Cosmetics-API/wiki)_
 
