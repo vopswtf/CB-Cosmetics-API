@@ -212,6 +212,8 @@ app.get("*", function (req, res) {
     );
 });
 
+if (!config.port) return console.log("Something is wrong with the config.json! Please fix it or redownload.");
+
 app.listen(config.port, function () {
   // OPEN THE GATES (turn on api)
   request("https://httpbin.org/ip", function (error, response, body) {
@@ -231,12 +233,6 @@ app.listen(config.port, function () {
     }
     if (config.secret == "ENTER_SECRET_HERE") {
       console.log("Please change the Panel Secret in config.json!");
-      exit();
-    }
-    if (!config.port) {
-      console.log(
-        "Something is wrong with the config.json! Please fix it or redownload."
-      );
       exit();
     }
     console.log(
