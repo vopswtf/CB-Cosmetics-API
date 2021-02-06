@@ -1,0 +1,12 @@
+{
+  "uuid": "0c0f23d0-be46-4059-a895-892e989fbaca",
+  "cosmetics": {
+    "cb": {
+      "active": false,
+      "name": "cb",
+      "resourceLocation": "cb",
+      "scale": 0.16,
+      "type": "cape"
+    }
+  }
+}
