@@ -34,6 +34,7 @@ app.use(rawBody);
 // CHEATBREAKER REQUESTS (PLAYER, TOGGLE, SERVERS) START
 app.get("/player/:uuid", async function (req, res) {
   // Show Player Data
+  try {
   const uuid = req.params.uuid;
   const userPath = "users/" + uuid + ".json";
   if (!fs.existsSync(userPath)) {
@@ -43,31 +44,35 @@ app.get("/player/:uuid", async function (req, res) {
   var playerData = fs.readFileSync(userPath);
   var obj = JSON.parse(playerData);
   res.send(obj);
+  }catch(err){console.log(err)}
 });
 
 app.post("/player/:uuid/cosmetics/:cosmetic/toggle", async function (req, res) {
   // Toggle Player Cosmetic
+  try {
   var uuid = req.params.uuid;
   var cosmetic = req.params.cosmetic;
   var userPath = "users/" + uuid + ".json";
   var file = require("./users/" + uuid + ".json");
+  if (!file) return res.send({ success: false, errMsg: "user does not have cosmetic" }); 
   var body = req.rawBody;
-  if (body != "true") {
-    //holy shit i was tired
-    if (body != "false") {
-      res.send({ success: false, errMsg: "body is not a boolean" });
-      return;
-    }
+  if (body != "true" && body != "false") {
+    res.send({ success: false, errMsg: "body is not a boolean" });
+    return;
   }
+  if (!file.cosmetics[cosmetic]) return res.send({ success: false, errMsg: "user does not have cosmetic" });
   file.cosmetics[cosmetic].active = body == "true";
   fs.writeFileSync(userPath, JSON.stringify(file, null, 2));
   res.send({ success: true });
+  }catch(err){console.log(err)}
 });
 
 app.get("/servers", async function (req, res) {
   // Show Pinned Servers
+  try {
   var obj = JSON.parse(fs.readFileSync("servers.json"));
   res.send(obj);
+  }catch(err){console.log(err)}
 });
 // CHEATBREAKER REQUESTS (PLAYER, TOGGLE, SERVERS) END
 
@@ -75,6 +80,7 @@ app.get("/servers", async function (req, res) {
 app.use(`/${config.secret}/panel`, express.static("panel")); // show panel HTML
 
 app.get(`/${config.secret}/panel/addCape`, async function (req, res) {
+  try {
   // addcape function (should have made this 1 function with wings but whatever)
   var username = req.query.username;
   var cape = req.query.cape;
@@ -109,10 +115,12 @@ app.get(`/${config.secret}/panel/addCape`, async function (req, res) {
       res.send({ success: true });
     }
   );
+  }catch(err){console.log(err)} 
 });
 
 app.get(`/${config.secret}/panel/addWings`, async function (req, res) {
   // add wings
+  try {
   var username = req.query.username;
   var wings = req.query.wings;
   var uuid;
@@ -146,10 +154,12 @@ app.get(`/${config.secret}/panel/addWings`, async function (req, res) {
       res.send({ success: true });
     }
   );
+  }catch(err){console.log(err)} 
 });
 
 app.get(`/${config.secret}/panel/delCape`, async function (req, res) {
   // del cape
+  try {
   var username = req.query.username;
   var cape = req.query.cape;
   var uuid;
@@ -173,10 +183,12 @@ app.get(`/${config.secret}/panel/delCape`, async function (req, res) {
       res.send({ success: true });
     }
   );
+}catch(err){console.log(err)} 
 });
 
 app.get(`/${config.secret}/panel/delWings`, async function (req, res) {
   // add wings
+  try {
   var username = req.query.username;
   var wings = req.query.wings;
   var uuid;
@@ -200,6 +212,7 @@ app.get(`/${config.secret}/panel/delWings`, async function (req, res) {
       res.send({ success: true });
     }
   );
+}catch(err){console.log(err)} 
 });
 // ADMIN PANEL DISPLAY & FUNCTIONS END
 
@@ -222,19 +235,8 @@ app.listen(config.port, function () {
     var json = JSON.parse(body);
     var origin = json.origin;
     if (!origin) return console.log(`CB Cosmetics API is online!`);
-    if (config.dev) {
-      origin = "127.0.0.1";
-    }
-    if (!config.secret) {
-      console.log(
-        "Something is wrong with the config.json! Please fix it or redownload."
-      );
-      exit();
-    }
-    if (config.secret == "ENTER_SECRET_HERE") {
-      console.log("Please change the Panel Secret in config.json!");
-      exit();
-    }
+    if (!config.secret) return console.log("Something is wrong with the config.json! Please fix it or redownload.");
+    if (config.secret == "ENTER_SECRET_HERE") return console.log("Please change the Panel Secret in config.json!");
     console.log(
       `CB Cosmetics API is online!\nPublic Link: http://${origin}:${config.port}\nPanel Link: http://${origin}:${config.port}/${config.secret}/panel\nNote: Port ${config.port} must be open for this API to be accessible by the public.`
     );

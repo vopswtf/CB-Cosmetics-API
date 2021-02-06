@@ -1,10 +1,10 @@
 {
     "servers":{
-      "Mantle":{
-        "address":"mantle.club"
-},	
+      "Your Network Here":{
+        "address":"ip.here"
+      },	
       "Lunar Network":{	
         "address":"lunar.gg"
-        }
+      }
     }
 }
