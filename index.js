@@ -56,7 +56,7 @@ app.post("/player/:uuid/cosmetics/:cosmetic/toggle", async function (req, res) {
   var file = require("./users/" + uuid + ".json");
   if (!file) return res.send({ success: false, errMsg: "user does not have cosmetic" }); 
   var body = req.rawBody;
-  if (body != "true" && body != "false") {
+  if (body !== "true" && body !== "false") {
     res.send({ success: false, errMsg: "body is not a boolean" });
     return;
   }
