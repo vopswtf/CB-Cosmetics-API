@@ -14,8 +14,8 @@
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
     <br />
-    <h4>NOTE</h4>
-    <a>This project is no longer being maintaned. I will not proovide support or update it.</a>
+    <h4 align="center">NOTE</h4>
+    <a align="center">This project is no longer being maintaned. I will not provide support or update it.</a>
   </p>
 </p>
 
