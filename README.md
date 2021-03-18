@@ -5,7 +5,7 @@
     <img src="https://pbs.twimg.com/profile_images/972258553577725952/Kri-CZdW_400x400.jpg" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">CheatBreaker Cosmetics API</h3>
+  <h2 align="center">CheatBreaker Cosmetics API</h3>
 
   <p align="center">
     An easy way to setup and use CheatBreaker cosmetics.
@@ -14,6 +14,7 @@
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
     <br />
+    <h4>NOTE</h4>
     <a>This project is no longer being maintaned. I will not proovide support or update it.</a>
   </p>
 </p>
