@@ -14,10 +14,11 @@
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
     <br />
-    <h4 align="center">NOTE</h4>
-    <a align="center">This project is no longer being maintaned. I will not provide support or update it.</a>
   </p>
 </p>
+
+<h3 align="center">NOTE</h3>
+<h4 align="center">This project is no longer being maintaned. I will not provide support or update it.</h4>
 
 ### Installation
 
