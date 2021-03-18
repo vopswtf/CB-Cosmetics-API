@@ -14,9 +14,7 @@
     <a href="https://github.com/ItsVops/CB-Cosmetics-API/wiki"><strong>Setup Tutorial</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ItsVops/CB-Cosmetics-API/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ItsVops/CB-Cosmetics-API/issues">Request Feature</a>
+    <a>This project is no longer being maintaned. I will not proovide support or update it.</a>
   </p>
 </p>
 
